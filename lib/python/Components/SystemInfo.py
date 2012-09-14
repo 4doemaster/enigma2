@@ -33,13 +33,13 @@ SystemInfo["FrontpanelDisplay"] = HardwareInfo().has_micom()
 SystemInfo["FrontpanelDisplayGrayscale"] = fileExists("/dev/dbox/oled0")
 # iq [
 #SystemInfo["DeepstandbySupport"] = HardwareInfo().get_device_name() != "dm800"
-def isSupportDeepStandby():
-	if HardwareInfo().has_micom():
-		FP_IOCTL_SUPPORT_DEEP_STANDBY = 0x429
-		fp = open('/dev/dbox/fp0', 'w')
-		import fcntl
-		return fcntl.ioctl(fp.fileno(), FP_IOCTL_SUPPORT_DEEP_STANDBY)
-SystemInfo["DeepstandbySupport"] = isSupportDeepStandby()
+#def isSupportDeepStandby():
+#	if HardwareInfo().has_micom():
+#		FP_IOCTL_SUPPORT_DEEP_STANDBY = 0x429
+#		fp = open('/dev/dbox/fp0', 'w')
+#		import fcntl
+#		return fcntl.ioctl(fp.fileno(), FP_IOCTL_SUPPORT_DEEP_STANDBY)
+#SystemInfo["DeepstandbySupport"] = isSupportDeepStandby()
 from enigma import eDVBCIInterfaces
 SystemInfo["NumCiSlots"] = eDVBCIInterfaces.getInstance().getNumOfSlots()
 # ]

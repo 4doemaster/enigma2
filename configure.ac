@@ -196,9 +196,9 @@ lib/python/Plugins/Extensions/SocketMMI/Makefile
 lib/python/Plugins/Extensions/SocketMMI/meta/Makefile
 lib/python/Plugins/Extensions/SocketMMI/src/Makefile
 lib/python/Plugins/Extensions/TuxboxPlugins/Makefile
-lib/python/Plugins/SystemPlugins/OSDPositionSetup/Makefile
 lib/python/Plugins/Extensions/TuxboxPlugins/meta/Makefile
 lib/python/Plugins/PLi/Makefile
+lib/python/Plugins/SystemPlugins/OSDPositionSetup/Makefile
 lib/python/Plugins/SystemPlugins/CleanupWizard/Makefile
 lib/python/Plugins/SystemPlugins/CleanupWizard/meta/Makefile
 lib/python/Plugins/SystemPlugins/CommonInterfaceAssignment/Makefile
@@ -254,4 +254,3 @@ AC_OUTPUT
 #lib/python/Plugins/SystemPlugins/DiseqcTester/meta/Makefile
 #lib/python/Plugins/SystemPlugins/DefaultServicesScanner/Makefile
 #lib/python/Plugins/SystemPlugins/DefaultServicesScanner/meta/Makefile
-

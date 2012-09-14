@@ -4,7 +4,7 @@ SUBDIRS = SoftwareManager PositionerSetup Satfinder \
 	SkinSelector SatelliteEquipmentControl Videomode VideoTune Hotplug \
 	CommonInterfaceAssignment \
 	CableScan FastScan VideoClippingSetup HdmiCEC \
-	VideoEnhancement WirelessLan NetworkWizard
+	VideoEnhancement WirelessLan NetworkWizard OSDPositionSetup
 
 #if HAVE_TEMPFANCONTROL
 SUBDIRS += TempFanControl
